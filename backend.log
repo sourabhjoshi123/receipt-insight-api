@@ -1,0 +1,938 @@
+INFO:     Will watch for changes in these directories: ['/workspaces/receipt-insight-api']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [3649] using StatReload
+INFO:     Started server process [3659]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3659]
+INFO:     Started server process [5304]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [5304]
+INFO:     Started server process [5440]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [5440]
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Started server process [5519]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [5581]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+📡 /summary-alerts called
+📊 Starting trend analysis...
+INFO:     127.0.0.1:56450 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:56450 - "GET /summary/ HTTP/1.1" 200 OK
+📅 Daily spending markdown table:
+| date      |   price |
+|:----------|--------:|
+| 1/28/2025 |    18.6 |
+| 7/11/2025 |   105   |
+| 7/29/2025 |   634.8 |
+🧠 Sending prompt to Jot agent...
+🌀 Run started (ID: run_3AfO7KkfkpHHq1F3Yup1QQe5)... Waiting for completion.
+⏳ Current status: queued
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: completed
+✅ Run completed. Fetching messages...
+📬 Response from Jot agent:
+1. **Unusual Expense Spike:** It looks like there’s a big jump in spending on July 29, 2025, with an expenditure of $634.80. This is significantly higher compared to the other days. It might be worth checking if this was a one-time large purchase or perhaps multiple items bundled together.
+
+2. **Midsummer Surge:** On July 11, 2025, there's another noticeable expense of $105. This, too, stands out compared to the relatively lower spending on most days. Perhaps there was a special occasion or shopping spree during this time.
+
+3. **Low-Key Day:** January 28, 2025, reflects a more typical day-to-day spending amount of $18.60. This suggests a pattern of otherwise moderate spending outside of the occasional big expenses, which is quite common in everyday budgeting.
+✅ Jot completed in 12.57s
+INFO:     127.0.0.1:56438 - "GET /summary-alerts HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [5581]
+INFO:     Started server process [6241]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6241]
+INFO:     Started server process [6315]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6315]
+INFO:     Started server process [6391]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:41088 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+📡 /summary-alerts called
+📊 Starting trend analysis...
+INFO:     127.0.0.1:41088 - "GET /summary/ HTTP/1.1" 200 OK
+📅 Daily spending markdown table:
+| date      |   price |
+|:----------|--------:|
+| 1/28/2025 |    18.6 |
+| 7/11/2025 |   105   |
+| 7/29/2025 |   634.8 |
+🧠 Sending prompt to Jot agent...
+🌀 Run started (ID: run_XlSX7bnh4R9Ut5KSSMVWOSpZ)... Waiting for completion.
+⏳ Current status: queued
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: completed
+✅ Run completed. Fetching messages...
+📬 Response from Jot agent:
+Here are a few insights from your spending data:
+
+1. **Major Spending Spike:** There's a significant jump in spending on July 29, 2025, with a purchase of $634.80. This is much higher compared to your other recorded purchases, suggesting a likely big-ticket item or possibly a special occasion.
+
+2. **Moderate Purchase:** On July 11, 2025, there's another noteworthy purchase of $105. While not as dramatic as the spike on July 29th, it's still considerably higher than the smaller purchase in January.
+
+3. **Typical Day-to-Day Purchase:** On January 28, 2025, there was a modest spend of $18.60, which could be indicative of regular daily expenses like groceries or dining out.
+✅ Jot completed in 15.84s
+INFO:     127.0.0.1:41082 - "GET /summary-alerts HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6391]
+INFO:     Started server process [7926]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [7926]
+INFO:     Started server process [8100]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8100]
+INFO:     Started server process [8248]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8248]
+INFO:     Started server process [8319]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8319]
+INFO:     Started server process [8358]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8358]
+INFO:     Started server process [8479]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8479]
+INFO:     Started server process [8571]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8571]
+INFO:     Started server process [8738]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8738]
+INFO:     Started server process [8789]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:44500 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+📡 /summary-alerts called
+📊 Starting trend analysis...
+INFO:     127.0.0.1:44500 - "GET /summary/ HTTP/1.1" 200 OK
+📅 Daily spending markdown table:
+| date      |   price |
+|:----------|--------:|
+| 1/28/2025 |    18.6 |
+| 7/11/2025 |   105   |
+| 7/29/2025 |   634.8 |
+🧠 Sending prompt to Jot agent...
+🌀 Run started (ID: run_XpqHDPedTh1eXtGVyOQn16Tn)... Waiting for completion.
+⏳ Current status: queued
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: completed
+✅ Run completed. Fetching messages...
+📬 Response from Jot agent:
+Absolutely! Let's dive into these numbers and uncover some interesting stories:
+
+1. **Noticeable Spike at the End of July**: There’s a significant purchase of $634.80 on July 29, 2025. This is quite a jump from the previous high of $105 on July 11. It could hint at a big purchase, maybe something like a new gadget or a special event. It's definitely out of the ordinary compared to the other spendings.
+
+2. **Mid-Year Splurge**: July seems to be a busy spending month with both $105 and the $634.80 transactions. It's quite a contrast to the modest spending noted earlier in the year on January 28, which was only $18.60. Perhaps there was a special occasion or a planned shopping spree during July?
+
+These patterns suggest some exciting elements in your financial journey this year!
+✅ Jot completed in 6.82s
+INFO:     127.0.0.1:44498 - "GET /summary-alerts HTTP/1.1" 200 OK
+📡 /summary-alerts called
+📊 Starting trend analysis...
+📅 Daily spending markdown table:
+| date      |   price |
+|:----------|--------:|
+| 1/28/2025 |    18.6 |
+| 7/11/2025 |   105   |
+| 7/29/2025 |   634.8 |
+🧠 Sending prompt to Jot agent...
+INFO:     127.0.0.1:51198 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51198 - "GET /summary/ HTTP/1.1" 200 OK
+🌀 Run started (ID: run_01iDJXLrkXHmXvCd1xZ4M3JG)... Waiting for completion.
+⏳ Current status: queued
+⏳ Current status: queued
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: completed
+✅ Run completed. Fetching messages...
+📬 Response from Jot agent:
+Sure! Here's a friendly breakdown of the spending trends from your data:
+
+1. **Shopping Spree Alert**: There's a significant spike on July 29, 2025, with a large purchase of $634.80. This is way higher than the other recorded amounts, suggesting a big-ticket item was likely bought, like electronics or a luxury item.
+
+2. **Moderate Spend Day**: On July 11, 2025, there's a moderate purchase of $105. This amount could be typical for buying multiple items or something slightly more expensive, like a nice dinner or a few clothing items.
+
+3. **Budget-friendly Day**: On January 28, 2025, the spending was quite low at $18.60, suggesting a low-key day with minimal expenses, possibly just daily essentials or a quick meal.
+
+These insights suggest quite a variety in spending, with one day significantly standing out.
+✅ Jot completed in 16.07s
+INFO:     127.0.0.1:51192 - "GET /summary-alerts HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8789]
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Started server process [11281]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [11320]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11320]
+INFO:     Started server process [11378]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:46906 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:46906 - "GET /summary/ HTTP/1.1" 200 OK
+📡 /summary-alerts called
+📊 Starting trend analysis...
+📅 Daily spending markdown table:
+| date      |   price |
+|:----------|--------:|
+| 1/28/2025 |    18.6 |
+| 7/11/2025 |   105   |
+| 7/29/2025 |   634.8 |
+🧠 Sending prompt to Jot agent...
+🌀 Run started (ID: run_blqNHLCUQ6KzmCybL3HPvm7v)... Waiting for completion.
+⏳ Current status: queued
+⏳ Current status: queued
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: completed
+✅ Run completed. Fetching messages...
+📬 Response from Jot agent:
+Sure! Here's what the data reveals:
+
+1. **Summer Spike**: There was a significant spike in spending on July 29, 2025, with an amount of $634.80. This is quite a jump compared to other days. It might have been a special purchase, like a big-ticket item or an experience!
+
+2. **Another Noticeable Jump**: Earlier in the summer, on July 11, 2025, there was another increase in spending at $105. While not as dramatic as the late July spike, it's still higher than average and might reflect a notable purchase or event.
+
+3. **Low-Key Winter Spend**: On January 28, 2025, spending was at $18.60, which is relatively modest compared to the summer spikes. This could indicate a period of less expensive daily activities or more budget-conscious behavior. 
+
+Overall, your summer spending seems to show some interesting spikes!
+✅ Jot completed in 14.86s
+INFO:     127.0.0.1:46914 - "GET /summary-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33688 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:33688 - "GET /summary/ HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11378]
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Started server process [12671]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [12709]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [12709]
+INFO:     Started server process [12765]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [12765]
+INFO:     Started server process [12870]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:36754 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:36754 - "GET /summary/ HTTP/1.1" 200 OK
+📡 /summary-alerts called
+📊 Starting trend analysis...
+📅 Daily spending markdown table:
+| date      |   price |
+|:----------|--------:|
+| 1/28/2025 |    18.6 |
+| 7/11/2025 |   105   |
+| 7/29/2025 |   634.8 |
+🧠 Sending prompt to Jot agent...
+🌀 Run started (ID: run_isU3N3R2jGgUX3PtefGOM437)... Waiting for completion.
+⏳ Current status: queued
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: completed
+✅ Run completed. Fetching messages...
+📬 Response from Jot agent:
+Certainly! Here are some insights based on the given purchase data:
+
+1. **Massive Spending Spike:** There's a huge leap in spending on July 29, 2025, where a single purchase of $634.80 stands out. This is significantly higher than the other two recorded transactions and might reflect a large one-time purchase or specific event.
+
+2. **Moderate Purchase:** On July 11, 2025, there's a considerable purchase of $105. While this isn't as dramatic as the end-of-July spike, it's still a noticeable increase from the first entry, suggesting occasional larger spends throughout the year.
+
+3. **Low Spending Day:** On January 28, 2025, the purchase amount was $18.60, which appears to be a typical day-to-day expense compared to the others. This kind of spending might be representative of regular, smaller purchases.
+
+These insights might help identify any special occasions, needs, or changes in spending patterns.
+✅ Jot completed in 6.34s
+INFO:     127.0.0.1:60772 - "GET /summary-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34666 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:34666 - "GET /summary/ HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [12870]
+INFO:     Started server process [13559]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [13559]
+INFO:     Started server process [13598]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [13598]
+INFO:     Started server process [14058]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:45734 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:45734 - "GET /summary/ HTTP/1.1" 200 OK
+📡 /summary-alerts called
+📊 Starting trend analysis...
+📅 Daily spending markdown table:
+| date      |   price |
+|:----------|--------:|
+| 1/28/2025 |    18.6 |
+| 7/11/2025 |   105   |
+| 7/29/2025 |   634.8 |
+🧠 Sending prompt to Jot agent...
+🌀 Run started (ID: run_rUcsqmYac2aBorjUEWlDJSJb)... Waiting for completion.
+⏳ Current status: queued
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: completed
+✅ Run completed. Fetching messages...
+📬 Response from Jot agent:
+Sure! Here are some insights based on the spending data you've provided:
+
+1. **Major Spending Spike:** On July 29, 2025, there was a significant spike in spending with an expenditure of $634.80. This is much higher than the other amounts in the table, indicating a potentially large purchase or payment on that day. It might be worth reviewing this expense to ensure it aligns with your budget or planned purchases.
+
+2. **Unexpected High Expense:** July 11, 2025, shows a noteworthy expense of $105, which is higher than the other amounts apart from the spike on July 29. This may reflect either a special occasion, a necessity, or an unplanned purchase. It’s a good reminder to check whether these expenses were expected or need managing in future budgets.
+
+3. **Low Spending Start:** Back on January 28, 2025, spending was a modest $18.60. This suggests a possibly regular day with standard or minor purchases. Compared to the other days, it's clear that this was a more typical or routine spending day, which might offer a baseline for everyday expenses.
+✅ Jot completed in 12.23s
+INFO:     127.0.0.1:45742 - "GET /summary-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49106 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:49106 - "GET /summary/ HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [14058]
+INFO:     Started server process [15669]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [15669]
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Started server process [15715]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [15776]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [15776]
+INFO:     Started server process [15821]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+📡 /summary-alerts called
+📊 Starting trend analysis...
+📅 Daily spending markdown table:
+| date      |   price |
+|:----------|--------:|
+| 1/28/2025 |    18.6 |
+| 7/11/2025 |   105   |
+| 7/29/2025 |   634.8 |
+🧠 Sending prompt to Jot agent...
+🌀 Run started (ID: run_7cA48jONuYDWHJl68x6lmmNo)... Waiting for completion.
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: completed
+✅ Run completed. Fetching messages...
+📬 Response from Jot agent:
+Sure! Here are some friendly insights about your spending:
+
+1. **Big Ticket Day:** On July 29, 2025, there's a noticeable spike in spending with a purchase of $634.80. This is significantly higher than the other days and might represent a major purchase or event. Maybe it was a special occasion or an investment in something new?
+
+2. **Mid-Summer Shopping Sprees:** Both July 11 and July 29 in 2025 include larger than usual spendings. July 11 saw a purchase of $105, indicating a possible shopping spree or a bigger-than-average outing. Keep an eye out if mid-summer is your typical time for bigger expenses.
+
+3. **January Calm:** At the start of the year on January 28, 2025, spending is relatively modest at $18.60, suggesting a quieter period. This might reflect a post-holiday season cooling-off in spending—great for keeping things steady and balanced!
+✅ Jot completed in 18.56s
+INFO:     127.0.0.1:51184 - "GET /summary-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50144 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:50144 - "GET /summary/ HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [15821]
+INFO:     Started server process [16246]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+📡 /summary-alerts called
+📊 Starting trend analysis...
+📅 Daily spending markdown table:
+| date      |   price |
+|:----------|--------:|
+| 1/28/2025 |    18.6 |
+| 7/11/2025 |   105   |
+| 7/29/2025 |   634.8 |
+🧠 Sending prompt to Jot agent...
+🌀 Run started (ID: run_ra4VWa4svQwohFG4k9AIhUFn)... Waiting for completion.
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: completed
+✅ Run completed. Fetching messages...
+📬 Response from Jot agent:
+Sure thing! Here are some insights based on the spending data you've shared:
+
+1. **Noticeable Spike in July:** There’s a significant rise in spending on July 29, 2025, with an expense of $634.80. This is quite high compared to the other entries and might indicate a major purchase or a special event.
+
+2. **Mid-Year Surge:** The expense on July 11, 2025, is $105, which is a jump compared to the $18.60 spent on January 28, 2025. This could suggest increased spending mid-year, possibly due to seasonal activities or mid-year sales.
+
+3. **Consistent Spending with Major Outliers:** While the spending on January 28 is relatively low and could imply regular, everyday expenses, the two instances in July suggest more significant spikes, drawing attention to potentially unusual purchases or events. 
+
+If you have more data or specific periods you'd like highlighted, just let me know!
+✅ Jot completed in 25.00s
+INFO:     127.0.0.1:58796 - "GET /summary-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35772 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:35772 - "GET /summary/ HTTP/1.1" 200 OK
+📡 /summary-alerts called
+📊 Starting trend analysis...
+📅 Daily spending markdown table:
+| date      |   price |
+|:----------|--------:|
+| 1/28/2025 |    18.6 |
+| 7/11/2025 |   105   |
+| 7/29/2025 |   634.8 |
+🧠 Sending prompt to Jot agent...
+🌀 Run started (ID: run_NT52fCZYMdTytkRsrzl77pn5)... Waiting for completion.
+⏳ Current status: queued
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: completed
+✅ Run completed. Fetching messages...
+📬 Response from Jot agent:
+Here are some friendly insights from your purchase history:
+
+1. **Sudden Spikes in Spending:** On July 29, 2025, there was a significant spike with a purchase of $634.80. This is quite a jump compared to the other days. It might be a good idea to review this expense and ensure it fits well within your budget or was a planned expense.
+
+2. **Biggest Purchase Surprise:** The purchase on July 11, 2025, of $105 is the second highest on record after the significant one in July. It's much higher than the more modest purchase in January. Was this something special, like an event or a larger than usual monthly stock-up?
+
+Overall, it seems like July was a month of bigger expenses compared to January. It's always a great practice to keep an eye on these variations for better financial planning.
+✅ Jot completed in 9.78s
+INFO:     127.0.0.1:42940 - "GET /summary-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60596 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60596 - "GET /summary/ HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [16246]
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Started server process [18609]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [18653]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18653]
+INFO:     Started server process [18693]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18693]
+INFO:     Started server process [18799]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18799]
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Started server process [18898]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [18921]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:42932 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:42932 - "GET /summary/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43960 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:43960 - "GET /summary/ HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18921]
+INFO:     Started server process [19796]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [19796]
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Started server process [19923]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Started server process [19979]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [19997]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [19997]
+INFO:     Started server process [20057]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:54774 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:54774 - "GET /summary/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47192 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:47192 - "GET /summary/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47208 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:47208 - "GET /summary/ HTTP/1.1" 200 OK
+📡 /summary-alerts called
+📊 Starting trend analysis...
+📅 Daily spending markdown table:
+| date      |   price |
+|:----------|--------:|
+| 1/28/2025 |    18.6 |
+| 7/11/2025 |   105   |
+| 7/29/2025 |   634.8 |
+🧠 Sending prompt to Jot agent...
+🌀 Run started (ID: run_MKL9zxexMxf2WH3L1QtWvWnb)... Waiting for completion.
+⏳ Current status: queued
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: completed
+✅ Run completed. Fetching messages...
+📬 Response from Jot agent:
+1. **Big Spending at the End of July**: On the 29th of July 2025, there's a significant spike in spending with a purchase of $634.80. This is quite a large amount compared to the other purchases, which could indicate a big-ticket item purchase or an important event. Keep an eye on your spending around such dates to ensure they align with your budget!
+
+2. **Mid-Year Surprise**: On July 11th, there's another notable purchase of $105, which stands out compared to the smaller regular spending like $18.6 on January 28th. It's worth considering if this is a special occasion or routine that occurs mid-year.
+
+Overall, it looks like you're generally keeping spending in check except for notable occasions. It's always good to ensure these align with your planned budget to maintain financial health. 😊
+✅ Jot completed in 7.48s
+INFO:     127.0.0.1:47218 - "GET /summary-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33192 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:33192 - "GET /summary/ HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [20057]
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Started server process [20641]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [20682]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [20682]
+INFO:     Started server process [20766]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [20766]
+INFO:     Started server process [20805]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [20805]
+INFO:     Started server process [20884]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [20884]
+INFO:     Started server process [20944]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [20944]
+INFO:     Started server process [21070]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [21070]
+INFO:     Started server process [21198]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [21198]
+INFO:     Started server process [21323]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [21323]
+INFO:     Started server process [21458]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [21458]
+INFO:     Started server process [21602]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:48868 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:48868 - "GET /summary/ HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [21602]
+INFO:     Started server process [22090]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [22090]
+INFO:     Started server process [22160]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:50898 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:50898 - "GET /summary/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52270 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:52270 - "GET /summary/ HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [22160]
+INFO:     Started server process [22402]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [22402]
+INFO:     Started server process [22471]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [22471]
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Started server process [22523]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [22534]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [22534]
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Started server process [22573]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [22607]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:36204 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:36204 - "GET /summary/ HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [22607]
+INFO:     Started server process [22872]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [22872]
+INFO:     Started server process [22923]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [22923]
+INFO:     Started server process [22955]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [22955]
+INFO:     Started server process [24071]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [24071]
+INFO:     Started server process [24145]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:58142 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:58142 - "GET /summary/ HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [24145]
+INFO:     Started server process [24345]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [24345]
+INFO:     Started server process [24397]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [24397]
+INFO:     Started server process [24447]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:45920 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:45920 - "GET /summary/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45924 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:45924 - "GET /summary/ HTTP/1.1" 200 OK
+📡 /summary-alerts called
+📊 Starting trend analysis...
+📅 Daily spending markdown table:
+| date      |   price |
+|:----------|--------:|
+| 1/28/2025 |    18.6 |
+| 7/11/2025 |   105   |
+| 7/29/2025 |   634.8 |
+🧠 Sending prompt to Jot agent...
+🌀 Run started (ID: run_9uYpkhrJBiV7ySdnC5MVv1dx)... Waiting for completion.
+⏳ Current status: queued
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: completed
+✅ Run completed. Fetching messages...
+📬 Response from Jot agent:
+Looking at your spending patterns, here are a few insights:
+
+1. **Big Spender Alert on July 29th:** It seems like you had quite a significant purchase on July 29, 2025, spending $634.80. This is a noticeable spike compared to your other entries. Perhaps it was a special occasion or a big-ticket item?
+
+2. **July 11th Treat:** On July 11, 2025, you spent $105, which is considerably higher than the $18.60 spent on January 28th. This could suggest treating yourself or perhaps a small splurge.
+
+3. **January's Modest Start:** Your spending on January 28, 2025, at $18.60, appears to be a typical, low-key day without major expenses. It's always nice to start the year with a bit of frugality!
+✅ Jot completed in 8.35s
+INFO:     127.0.0.1:45928 - "GET /summary-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50296 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:50296 - "GET /summary/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43134 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:43134 - "GET /summary/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43138 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:43138 - "GET /summary/ HTTP/1.1" 200 OK
+📡 /summary-alerts called
+📊 Starting trend analysis...
+📅 Daily spending markdown table:
+| date      |   price |
+|:----------|--------:|
+| 1/28/2025 |    18.6 |
+| 7/11/2025 |   105   |
+| 7/29/2025 |   634.8 |
+🧠 Sending prompt to Jot agent...
+🌀 Run started (ID: run_IBMWRH1mY5QPl6ORc2qQcPnM)... Waiting for completion.
+⏳ Current status: queued
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: completed
+✅ Run completed. Fetching messages...
+📬 Response from Jot agent:
+Sure! Here's what I can see from the spending data:
+
+1. **Major Spending Spike**: There was a significant spike in spending on July 29, 2025, where the amount reached $634.80. This is much higher than the usual daily expenses in this dataset. It might be an important purchase or perhaps a planned expense like a vacation or a big purchase.
+
+2. **Mid-Year Shopping**: Noticeably, on July 11, 2025, there was another considerable expense of $105. This may suggest a pattern of increased spending during mid-year, possibly due to a special occasion or seasonal shopping.
+
+3. **Steady Beginning**: The spending on January 28, 2025, was quite modest at $18.60. This suggests a regular or routine purchase, indicating typical daily spending without any significant events.
+
+It might be interesting to look into what caused those spikes to better manage and plan future expenses! 😊
+✅ Jot completed in 7.99s
+INFO:     127.0.0.1:43154 - "GET /summary-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50212 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:50212 - "GET /summary/ HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'ui/app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [24447]
+INFO:     Started server process [29063]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.

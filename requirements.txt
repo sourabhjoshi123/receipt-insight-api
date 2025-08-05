@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pytesseract
+pillow
+openai>=1.0.0
+python-multipart
+sqlalchemy
+streamlit
+pandas
+requests
+python-dotenv
+streamlit-option-menu
+tabulate
