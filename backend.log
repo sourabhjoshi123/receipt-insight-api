@@ -936,3 +936,69 @@ INFO:     Finished server process [24447]
 INFO:     Started server process [29063]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
+INFO:     127.0.0.1:49158 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:49158 - "GET /summary/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49166 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:49166 - "GET /summary/ HTTP/1.1" 200 OK
+📡 /summary-alerts called
+📊 Starting trend analysis...
+📅 Daily spending markdown table:
+| date      |   price |
+|:----------|--------:|
+| 1/28/2025 |    18.6 |
+| 7/11/2025 |   105   |
+| 7/29/2025 |   634.8 |
+🧠 Sending prompt to Jot agent...
+🌀 Run started (ID: run_sODsS6wgwO1hhynoog2IkNCT)... Waiting for completion.
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: completed
+✅ Run completed. Fetching messages...
+📬 Response from Jot agent:
+Sure, let's break this down into some easy-to-understand insights about your spending:
+
+1. **Regular Purchases and Seasonal High Spends:** We see a relatively modest purchase of $18.60 on January 28, 2025, which might be a day-to-day expense. However, your spending seemed to jump to $105 on July 11, 2025. This could indicate a special occasion or a larger purchase. 
+
+2. **Significant Spike in Spending:** There's a huge spike on July 29, 2025, with an expenditure of $634.80. This seems quite substantial compared to other days and might point to a large, perhaps unexpected, expense such as a vacation booking, a major purchase, or a special event.
+
+These variations indicate that while everyday buys are steady, certain dates reflect a substantial change in spending, likely tied to specific, perhaps more significant needs or events.
+✅ Jot completed in 10.83s
+INFO:     127.0.0.1:49176 - "GET /summary-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45164 - "GET /purchases HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:45164 - "GET /purchases/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58304 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:58304 - "GET /summary/ HTTP/1.1" 200 OK
+📡 /summary-alerts called
+📊 Starting trend analysis...
+📅 Daily spending markdown table:
+| date      |   price |
+|:----------|--------:|
+| 1/28/2025 |    18.6 |
+| 7/11/2025 |   105   |
+| 7/29/2025 |   634.8 |
+🧠 Sending prompt to Jot agent...
+🌀 Run started (ID: run_Q8MMIjxUYxMgzuAc3tFdeZXL)... Waiting for completion.
+⏳ Current status: queued
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: in_progress
+⏳ Current status: completed
+✅ Run completed. Fetching messages...
+📬 Response from Jot agent:
+Sure! Let's dive into the spending patterns from the data you provided:
+
+1. **Monthly Spike Alert**: There's a noticeable spike on July 29, 2025, with a significant purchase of $634.80. This is much higher than the other days mentioned and could represent a major purchase or an unexpected expense. It might be worth reviewing what this large expenditure was for and if it aligns with your budget.
+
+2. **Steady Spending**: The purchase on January 28, 2025, was $18.60, which seems to be a regular spending amount compared to the other values. This could reflect a routine or typical purchase, such as groceries or a meal out.
+
+3. **Summer Spending Jump**: There’s also a smaller, yet notable, increase on July 11, 2025, with a $105 expenditure. It appears higher than the steady $18.60 in January, suggesting a mid-range purchase. This might be part of summer activities or some semi-annual costs.
+
+Hope this helps in understanding your spending habits!
+✅ Jot completed in 8.44s
+INFO:     127.0.0.1:58310 - "GET /summary-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54010 - "GET /summary HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:54010 - "GET /summary/ HTTP/1.1" 200 OK
